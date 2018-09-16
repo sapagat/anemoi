@@ -1,0 +1,111 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ7VpC0x5GYA0RailHMhCtwpo",
+         "types" : [ "establishment", "point_of_interest" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJrai3fB5GYA0RfOvH7Phr9fU",
+         "types" : [ "bar", "establishment", "food", "point_of_interest", "restaurant" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 39.4909779,
+               "lng" : -0.3585968
+            },
+            "southwest" : {
+               "lat" : 39.488341,
+               "lng" : -0.360013
+            }
+         },
+         "copyrights" : "Map data ©2018 Google, Inst. Geogr. Nacional",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "0.4 km",
+                  "value" : 376
+               },
+               "duration" : {
+                  "text" : "5 mins",
+                  "value" : 285
+               },
+               "end_address" : "Calle Barón de San Petrillo, 66, 46020 València, Valencia, Spain",
+               "end_location" : {
+                  "lat" : 39.4884553,
+                  "lng" : -0.360013
+               },
+               "start_address" : "Carrer de Masquefa, 46020 València, Valencia, Spain",
+               "start_location" : {
+                  "lat" : 39.4909779,
+                  "lng" : -0.3585968
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 296
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 220
+                     },
+                     "end_location" : {
+                        "lat" : 39.488341,
+                        "lng" : -0.3590974
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e on \u003cb\u003eCarrer de Masquefa\u003c/b\u003e toward \u003cb\u003eCarrer del Poeta Ricard Sanmartí\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "sa`pFf`eA`D`@D?vFj@T@xAR"
+                     },
+                     "start_location" : {
+                        "lat" : 39.4909779,
+                        "lng" : -0.3585968
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "80 m",
+                        "value" : 80
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 65
+                     },
+                     "end_location" : {
+                        "lat" : 39.4884553,
+                        "lng" : -0.360013
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eCarrer de Francesc Martínez\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "cq_pFjceAKdBKnA"
+                     },
+                     "start_location" : {
+                        "lat" : 39.488341,
+                        "lng" : -0.3590974
+                     },
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "sa`pFf`eAfD`@lGl@xARKdBKnA"
+         },
+         "summary" : "Carrer de Masquefa",
+         "warnings" : [
+            "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}
