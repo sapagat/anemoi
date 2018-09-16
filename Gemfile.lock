@@ -2,9 +2,32 @@ GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.3)
+    faraday (0.15.2)
+      multipart-post (>= 1.2, < 3)
+    ffi (1.9.25)
     httparty (0.16.2)
       multi_xml (>= 0.5.2)
+    jwt (2.1.0)
+    listen (3.1.5)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
+      ruby_dep (~> 1.2)
+    mini_portile2 (2.3.0)
     multi_xml (0.6.0)
+    multipart-post (2.0.0)
+    mustermann (1.0.3)
+    nokogiri (1.8.4)
+      mini_portile2 (~> 2.3.0)
+    rack (2.0.5)
+    rack-protection (2.0.4)
+      rack
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    rb-fsevent (0.10.3)
+    rb-inotify (0.9.10)
+      ffi (>= 0.5.0, < 2)
+    rerun (0.13.0)
+      listen (~> 3.0)
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
       rspec-expectations (~> 3.8.0)
@@ -18,13 +41,28 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.8.0)
     rspec-support (3.8.0)
+    ruby_dep (1.5.0)
+    sinatra (2.0.4)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.4)
+      tilt (~> 2.0)
+    tilt (2.0.8)
+    twilio-ruby (5.12.4)
+      faraday (~> 0.9)
+      jwt (>= 1.5, <= 2.5)
+      nokogiri (>= 1.6, < 2.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   httparty (~> 0.16.2)
+  rack-test (~> 1.1.0)
+  rerun (~> 0.13.0)
   rspec (~> 3.8.0)
+  sinatra (~> 2.0.4)
+  twilio-ruby (~> 5.12.4)
 
 RUBY VERSION
    ruby 2.5.1p57
